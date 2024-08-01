@@ -17,9 +17,6 @@ int main (){
         while(scanf("%d", &a) && (a>2 || a<1)){
             printf("novo calculo (1-sim 2-nao)\n");
         }
-        if (a==2){
-            return 0;
-        }
     }
     while(a==1);
     return 0;
